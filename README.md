@@ -6,7 +6,7 @@
 
 ## Getting stated 🚀
 
-### Prerequisites 🔗
+### Prerequisites ⚠️
 
 -   [Git](https://git-scm.com)
 -   [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com))
@@ -14,13 +14,13 @@
 
 ## Setup 🔧
 
-### Create the project 📁
+### Create the project 📂
 
 ```bash
 yarn create vite
 ```
 
-### Install dependancies 🔖
+### Install dependancies 📓
 
 ```bash
 yarn
