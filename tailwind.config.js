@@ -3,12 +3,12 @@ export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         colors: {
-            mainBg: "#121212",
-            secondaryBg: "#275ecb",
-            cardBg: "#2b3983",
-            cardSecondaryBg: "#383838",
-            mainColor: "#d6dcd7",
-            secondaryColor: "#99989f",
+            bgMain: "#121212",
+            bgSecondary: "#275ecb",
+            bgCard: "#2b3983",
+            bgCardSecondary: "#383838",
+            colorMain: "#d6dcd7",
+            colorSecondary: "#99989f",
         },
         extend: {},
     },
