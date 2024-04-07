@@ -1,10 +1,10 @@
-import Header from "../components/Header";
+import Nav from "../components/Nav";
 
 function Home() {
     return (
-        <body className="bg-bgMain min-h-screen">
-            <Header />
-        </body>
+        <div className="bg-bgMain min-h-screen">
+            <Nav />
+        </div>
     );
 }
 
