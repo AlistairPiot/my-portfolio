@@ -1,18 +1,8 @@
 # my-portfolio
 
-## Features
+## ⚡️Vite + React
 
-⚡️Vite + React
-
-# React + Vite
-
--   Framework => React
--   Variant => Javascript
-
-## the various tools used for the project :
-
--   node => v20.11.0
--   yarn
+---
 
 ## Getting stated 🚀
 
@@ -28,6 +18,12 @@
 
 ```bash
 yarn create vite
+```
+
+### Install dependancies
+
+```bash
+yarn
 ```
 
 ### Start the development server
