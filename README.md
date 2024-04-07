@@ -31,3 +31,36 @@ yarn
 ```bash
 yarn run dev
 ```
+
+### Install Tailwind CSS
+
+```bash
+yarn add -D tailwindcss postcss autoprefixer
+```
+
+### Generate the tailwind.config.js and postcss.config.js files
+
+```bash
+yarn tailwindcss init -p
+```
+
+### Generate the tailwind.config.js and postcss.config.js files
+
+-   In the file tailwind.config.js
+
+```bash
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+```
+
+### Add the Tailwind directive to the CSS
+
+-   In the file tailwind.config.js
+
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
