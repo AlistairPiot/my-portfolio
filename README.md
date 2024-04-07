@@ -1,32 +1,32 @@
 # my-portfolio
 
-## ⚡️Vite + React
+## Vite + React ⚡️
 
 ---
 
 ## Getting stated 🚀
 
-### Prerequisites 📋
+### Prerequisites 🔗
 
 -   [Git](https://git-scm.com)
 -   [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com))
--   Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM
+-   [Yarn](https://yarnpkg.com/) instead of NPM
 
 ## Setup 🔧
 
-### Create the project
+### Create the project 📁
 
 ```bash
 yarn create vite
 ```
 
-### Install dependancies
+### Install dependancies 🔖
 
 ```bash
 yarn
 ```
 
-### Start the development server
+### Start the development server 💻
 
 ```bash
 yarn run dev
