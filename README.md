@@ -82,3 +82,19 @@ yarn add @fortawesome/free-brands-svg-icons
 ```bash
 yarn add @fortawesome/react-fontawesome@latest
 ```
+
+---
+
+### ESLint Plugin TailwindCSS
+
+```bash
+yarn add -D  eslint-plugin-tailwindcss
+```
+
+### Edit .eslintrc
+
+"plugin:tailwindcss/recommended"
+
+```bash
+extends: ["plugin:tailwindcss/recommended"],
+```
