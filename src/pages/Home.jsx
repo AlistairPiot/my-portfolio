@@ -1,11 +1,11 @@
 import About from "../components/About";
 import Banner from "../components/Banner";
-import Nav from "../components/Nav";
+import Navbar from "../components/Navbar";
 
 function Home() {
     return (
         <div className="min-h-screen bg-sky-100 font-itim">
-            <Nav />
+            <Navbar />
             <Banner />
             <About />
         </div>

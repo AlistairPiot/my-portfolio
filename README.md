@@ -67,24 +67,6 @@ content: [
 
 ---
 
-### Font Awesome installation
-
-```bash
-yarn add @fortawesome/fontawesome-svg-core
-```
-
-```bash
-yarn add @fortawesome/free-solid-svg-icons
-yarn add  @fortawesome/free-regular-svg-icons
-yarn add @fortawesome/free-brands-svg-icons
-```
-
-```bash
-yarn add @fortawesome/react-fontawesome@latest
-```
-
----
-
 ### ESLint Plugin TailwindCSS
 
 ```bash
@@ -97,4 +79,12 @@ yarn add -D  eslint-plugin-tailwindcss
 
 ```bash
 extends: ["plugin:tailwindcss/recommended"],
+```
+
+---
+
+### React icons installation
+
+```bash
+yarn add react-icons
 ```
