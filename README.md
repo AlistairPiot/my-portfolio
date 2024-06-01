@@ -9,8 +9,7 @@
 ### Prerequisites ⚠️
 
 -   [Git](https://git-scm.com)
--   [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com))
--   [Yarn](https://yarnpkg.com/) instead of NPM
+-   [Node.js](https://nodejs.org/en/download/)
 
 ## Setup 🔧
 

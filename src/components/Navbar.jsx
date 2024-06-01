@@ -32,7 +32,7 @@ function Navbar() {
                 />
             </button>
             <div
-                className={`absolute right-0 top-full mt-1 flex w-48 flex-col items-center overflow-hidden rounded-bl-xl border border-gray-200 bg-sky-950/90 shadow-lg transition-all duration-300 ease-in-out ${
+                className={`absolute right-0 top-full mt-1 flex w-48 flex-col items-center overflow-hidden rounded-bl-xl border border-gray-200 bg-stone-950/90 shadow-lg transition-all duration-300 ease-in-out ${
                     isOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
                 }`}
             >
@@ -46,13 +46,13 @@ function Navbar() {
                     href="#"
                     className="block px-4 py-2 text-sm text-sky-50 hover:text-sky-200"
                 >
-                    About
+                    Projects
                 </a>
                 <a
                     href="#"
                     className="block px-4 py-2 text-sm text-sky-50 hover:text-sky-200"
                 >
-                    Projects
+                    My Career
                 </a>
                 <a
                     href="#"

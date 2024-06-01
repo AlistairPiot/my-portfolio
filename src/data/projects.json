@@ -1,0 +1,45 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "title": "Movie List",
+            "description": "Movie List is a project that displays a list of films, with the option of filterihng films by year Once logged in, users can delete a film or add a new one.",
+            "images": [
+                "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+            ],
+            "icons": [
+                "../assets/icons/html-48px.svg",
+                "../assets/icons/javascript-48px.svg",
+                "../assets/icons/sass-48px.svg",
+                "../assets/icons/json.svg"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Movie List",
+            "description": "Movie List description.",
+            "images": [
+                "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+            ],
+            "icons": [
+                "../assets/icons/react-48px.svg",
+                "../assets/icons/javascript-48px.svg",
+                "../assets/icons/sass-48px.svg"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Argent Bank",
+            "description": "Argent Bank description.",
+            "images": [
+                "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg"
+            ],
+            "icons": [
+                "../assets/icons/mongodb.svg",
+                "../assets/icons/react-48px.svg",
+                "../assets/icons/javascript-48px.svg",
+                "../assets/icons/sass-48px.svg"
+            ]
+        }
+    ]
+}
