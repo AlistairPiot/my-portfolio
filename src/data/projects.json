@@ -26,7 +26,7 @@
         {
             "id": "3",
             "title": "Argent Bank",
-            "description": "Argent Bank description.",
+            "description": "Argent Bank is a project that allows you to interact with an API, authenticate yourself and change your nickname instantly.",
             "images": ["../../src/assets/images/argent-bank.png"],
             "icons": [
                 "../../src/assets/icons/mongodb.svg",
