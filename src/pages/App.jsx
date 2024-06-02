@@ -1,3 +1,4 @@
+import Career from "../components/Career";
 import Navbar from "../components/Navbar";
 import About from "../components/sectionHomepage/About";
 import Banner from "../components/sectionHomepage/Banner";
@@ -10,6 +11,7 @@ function App() {
             <Banner />
             <About />
             <ContainerProjects />
+            <Career />
         </div>
     );
 }

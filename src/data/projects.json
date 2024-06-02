@@ -3,42 +3,36 @@
         {
             "id": "1",
             "title": "Movie List",
-            "description": "Movie List is a project that displays a list of films, with the option of filterihng films by year Once logged in, users can delete a film or add a new one.",
-            "images": [
-                "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
-            ],
+            "description": "Movie List is a project that displays a list of films, with the option of filtering films by year. Once logged in, users can delete a film or add a new one.",
+            "images": ["../../src/assets/images/movie-liste.png"],
             "icons": [
-                "../assets/icons/html-48px.svg",
-                "../assets/icons/javascript-48px.svg",
-                "../assets/icons/sass-48px.svg",
-                "../assets/icons/json.svg"
+                "../../src/assets/icons/html-48px.svg",
+                "../../src/assets/icons/javascript-48px.svg",
+                "../../src/assets/icons/sass-48px.svg",
+                "../../src/assets/icons/json.svg"
             ]
         },
         {
             "id": "2",
-            "title": "Movie List",
-            "description": "Movie List description.",
-            "images": [
-                "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
-            ],
+            "title": "Kasa",
+            "description": "Kasa is a project that displays a list of several flats. Clicking on a flat displays all its features",
+            "images": ["../../src/assets/images/kasa.png"],
             "icons": [
-                "../assets/icons/react-48px.svg",
-                "../assets/icons/javascript-48px.svg",
-                "../assets/icons/sass-48px.svg"
+                "../../src/assets/icons/react-48px.svg",
+                "../../src/assets/icons/javascript-48px.svg",
+                "../../src/assets/icons/sass-48px.svg"
             ]
         },
         {
             "id": "3",
             "title": "Argent Bank",
             "description": "Argent Bank description.",
-            "images": [
-                "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg"
-            ],
+            "images": ["../../src/assets/images/argent-bank.png"],
             "icons": [
-                "../assets/icons/mongodb.svg",
-                "../assets/icons/react-48px.svg",
-                "../assets/icons/javascript-48px.svg",
-                "../assets/icons/sass-48px.svg"
+                "../../src/assets/icons/mongodb.svg",
+                "../../src/assets/icons/react-48px.svg",
+                "../../src/assets/icons/javascript-48px.svg",
+                "../../src/assets/icons/sass-48px.svg"
             ]
         }
     ]

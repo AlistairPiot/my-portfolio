@@ -87,3 +87,9 @@ extends: ["plugin:tailwindcss/recommended"],
 ```bash
 yarn add react-icons
 ```
+
+### React-vertical-timeline-component installation
+
+```bash
+yarn add react-vertical-timeline-component @heroicons/react
+```

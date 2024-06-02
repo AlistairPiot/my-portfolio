@@ -8,7 +8,7 @@ function About() {
                 Design
             </p>
             <div className="my-10 w-11/12 border-b-2 border-sky-900"></div>
-            <div className="text-3xl">Discover my projects</div>
+            <div className="text-3xl">Scroll down</div>
             <FaArrowDown className="mt-4 text-3xl" />
         </div>
     );

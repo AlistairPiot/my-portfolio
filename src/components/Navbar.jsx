@@ -52,7 +52,7 @@ function Navbar() {
                     href="#"
                     className="block px-4 py-2 text-sm text-sky-50 hover:text-sky-200"
                 >
-                    My Career
+                    Career
                 </a>
                 <a
                     href="#"

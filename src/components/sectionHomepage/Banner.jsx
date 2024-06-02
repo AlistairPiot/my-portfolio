@@ -1,6 +1,6 @@
 import svgGithub from "../../assets/icons/github-48px.svg";
 import svgLinkedin from "../../assets/icons/linkedin-48px.svg";
-import svgMe from "../../assets/images/imgMe.svg";
+import svgMe from "../../assets/images/alistair.svg";
 
 function Main() {
     return (
