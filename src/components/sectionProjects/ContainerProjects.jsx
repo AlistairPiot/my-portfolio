@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const ContainerProjects = () => {
     return (
-        <div className="flex flex-col items-center bg-sky-900 text-sky-50 ">
+        <div className="flex flex-col items-center bg-sky-900 text-sky-50">
             <div className="p-8">
                 <h2 className="mb-6 text-center text-3xl font-bold">
                     My Projects

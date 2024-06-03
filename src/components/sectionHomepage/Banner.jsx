@@ -10,13 +10,16 @@ function Main() {
                 <h1 className="mb-0.5 text-4xl">Alistair Piot</h1>
                 <h3 className="text-2xl">Frontend Dev</h3>
                 <div className="mt-4 flex gap-4">
-                    <a href="https://www.linkedin.com/in/alistair-piot/">
+                    <a
+                        href="https://www.linkedin.com/in/alistair-piot/"
+                        target="_blank"
+                    >
                         <img
                             className="w-12 cursor-pointer"
                             src={svgLinkedin}
                         />
                     </a>
-                    <a href="https://github.com/AlistairPiot">
+                    <a href="https://github.com/AlistairPiot" target="_blank">
                         <img className="w-12 cursor-pointer" src={svgGithub} />
                     </a>
                 </div>
