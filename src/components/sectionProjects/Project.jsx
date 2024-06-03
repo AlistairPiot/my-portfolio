@@ -39,31 +39,40 @@ const Project = () => {
 
     return (
         <div className="carousel relative">
-            <div
-                className={`carousel-card group relative w-full transition-opacity duration-300 ${
-                    isTransitioning ? "opacity-0" : "opacity-100"
-                }`}
+            <a
+                href={currentProject.link[0]}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
             >
-                <img
-                    src={currentProject.images[0]}
-                    alt={currentProject.title}
-                    className="h-44 w-96 rounded-2xl object-cover"
-                />
-                <div className="absolute inset-0 rounded-2xl bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-70"></div>
-                <div className="absolute inset-0 flex items-center justify-center text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                    <p className="text-sky-50">{currentProject.description}</p>
+                <div
+                    className={`carousel-card group relative w-full transition-opacity duration-300 ${
+                        isTransitioning ? "opacity-0" : "opacity-100"
+                    }`}
+                >
+                    <img
+                        src={currentProject.images[0]}
+                        alt={currentProject.title}
+                        className="h-44 w-96 rounded-2xl object-cover"
+                    />
+                    <div className="absolute inset-0 rounded-2xl bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-70"></div>
+                    <div className="absolute inset-0 flex items-center justify-center text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p className="text-sky-50">
+                            {currentProject.description}
+                        </p>
+                    </div>
+                    <div className="absolute bottom-2 right-2 flex space-x-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        {currentProject.icons.map((icon, index) => (
+                            <img
+                                key={index}
+                                src={icon}
+                                alt={`icon-${index}`}
+                                className="size-6"
+                            />
+                        ))}
+                    </div>
                 </div>
-                <div className="absolute bottom-2 right-2 flex space-x-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                    {currentProject.icons.map((icon, index) => (
-                        <img
-                            key={index}
-                            src={icon}
-                            alt={`icon-${index}`}
-                            className="size-6"
-                        />
-                    ))}
-                </div>
-            </div>
+            </a>
             <div className="mt-2 flex justify-around">
                 <button
                     className="absolute left-8 rounded-full bg-transparent px-4 py-2 font-bold text-sky-50 hover:bg-gray-800"

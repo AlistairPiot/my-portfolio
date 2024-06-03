@@ -13,13 +13,18 @@ function Main() {
                     <a
                         href="https://www.linkedin.com/in/alistair-piot/"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <img
                             className="w-12 cursor-pointer"
                             src={svgLinkedin}
                         />
                     </a>
-                    <a href="https://github.com/AlistairPiot" target="_blank">
+                    <a
+                        href="https://github.com/AlistairPiot"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <img className="w-12 cursor-pointer" src={svgGithub} />
                     </a>
                 </div>

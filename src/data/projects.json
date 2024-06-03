@@ -10,7 +10,8 @@
                 "../../src/assets/icons/javascript-48px.svg",
                 "../../src/assets/icons/sass-48px.svg",
                 "../../src/assets/icons/json.svg"
-            ]
+            ],
+            "link": ["https://github.com/AlistairPiot/movie-list"]
         },
         {
             "id": "2",
@@ -21,7 +22,8 @@
                 "../../src/assets/icons/react-48px.svg",
                 "../../src/assets/icons/javascript-48px.svg",
                 "../../src/assets/icons/sass-48px.svg"
-            ]
+            ],
+            "link": ["https://github.com/AlistairPiot/kasa-app"]
         },
         {
             "id": "3",
@@ -33,7 +35,8 @@
                 "../../src/assets/icons/react-48px.svg",
                 "../../src/assets/icons/javascript-48px.svg",
                 "../../src/assets/icons/sass-48px.svg"
-            ]
+            ],
+            "link": ["https://github.com/AlistairPiot/argenk-bank"]
         }
     ]
 }

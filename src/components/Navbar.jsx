@@ -37,31 +37,31 @@ function Navbar() {
                 }`}
             >
                 <a
-                    href="#"
+                    href="#banner"
                     className="block px-4 py-2 text-sm text-sky-50 hover:text-sky-200"
                 >
                     Home
                 </a>
                 <a
-                    href="#"
+                    href="#project"
                     className="block px-4 py-2 text-sm text-sky-50 hover:text-sky-200"
                 >
                     Projects
                 </a>
                 <a
-                    href="#"
+                    href="#career"
                     className="block px-4 py-2 text-sm text-sky-50 hover:text-sky-200"
                 >
                     Career
                 </a>
                 <a
-                    href="#"
+                    href="#skills"
                     className="block px-4 py-2 text-sm text-sky-50 hover:text-sky-200"
                 >
                     Skills
                 </a>
                 <a
-                    href="#"
+                    href="#contact"
                     className="block px-4 py-2 text-sm text-sky-50 hover:text-sky-200"
                 >
                     Contact

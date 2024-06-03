@@ -9,14 +9,24 @@ import ContainerProjects from "../components/sectionProjects/ContainerProjects";
 
 function App() {
     return (
-        <div className="m-0 box-border min-h-screen scroll-smooth bg-sky-100 p-0 font-itim">
+        <div className="m-0 box-border min-h-screen bg-sky-100 p-0 font-itim">
             <Navbar />
-            <Banner />
+            <section id="banner">
+                <Banner />
+            </section>
             <About />
-            <ContainerProjects />
-            <Career />
-            <Skills />
-            <Contact />
+            <section id="project">
+                <ContainerProjects />
+            </section>
+            <section id="career">
+                <Career />
+            </section>
+            <section id="skills">
+                <Skills />
+            </section>
+            <section id="contact">
+                <Contact />
+            </section>
             <Footer />
         </div>
     );
