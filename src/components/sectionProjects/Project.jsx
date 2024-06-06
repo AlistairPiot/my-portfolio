@@ -76,7 +76,7 @@ const Project = () => {
             <div className="mt-2 flex justify-around md:text-2xl lg:mt-6">
                 <button
                     className="absolute left-8 rounded-full bg-transparent px-4 py-2 font-bold text-sky-50 hover:bg-gray-800"
-                    name="arrow left"
+                    aria-label="arrow left"
                     onClick={goToPreviousProject}
                 >
                     <FaArrowLeft />
@@ -86,7 +86,7 @@ const Project = () => {
                 </h3>
                 <button
                     className="absolute right-8 rounded-full bg-transparent px-4 py-2 font-bold text-sky-50 hover:bg-sky-950"
-                    name="arrow right"
+                    aria-label="arrow right"
                     onClick={goToNextProject}
                 >
                     <FaArrowRight />
