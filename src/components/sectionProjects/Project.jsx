@@ -51,9 +51,7 @@ const Project = () => {
                     }`}
                 >
                     <img
-                        src={`${import.meta.env.BASE_URL}${
-                            currentProject.images[0]
-                        }`}
+                        src={currentProject.images[0]}
                         alt={currentProject.title}
                         className="h-44 w-96 rounded-2xl object-cover"
                     />
@@ -67,7 +65,7 @@ const Project = () => {
                         {currentProject.icons.map((icon, index) => (
                             <img
                                 key={index}
-                                src={`${import.meta.env.BASE_URL}${icon}`}
+                                src={icon}
                                 alt={`icon-${index}`}
                                 className="size-6"
                             />
