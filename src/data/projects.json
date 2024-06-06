@@ -6,9 +6,9 @@
             "description": "Movie List is a project that displays a list of films, with the option of filtering films by year. Once logged in, users can delete a film or add a new one.",
             "images": ["/images/movie-liste.png"],
             "icons": [
-                "icons/html-48px.svg",
-                "icons/javascript-48px.svg",
-                "icons/sass-48px.svg",
+                "/icons/html-48px.svg",
+                "/icons/javascript-48px.svg",
+                "/icons/sass-48px.svg",
                 "/icons/json.svg"
             ],
             "link": ["https://github.com/AlistairPiot/movie-list"]
