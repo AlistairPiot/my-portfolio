@@ -93,3 +93,34 @@ yarn add react-icons
 ```bash
 yarn add react-vertical-timeline-component @heroicons/react
 ```
+
+## GitHub Pages installation
+
+```bash
+yarn add gh-pages --dev
+```
+
+### Add homepage to the package.json file :
+
+```bash
+"homepage": "https://alistairpiot.dev"
+```
+
+#### add predeploy and deploy script in package.json:
+
+```bash
+"predeploy": "yarn run build",
+"deploy": "gh-pages -d dist",
+```
+
+-   Now run the command :
+
+```bash
+yarn predeploy
+```
+
+-   And the command :
+
+```bash
+yarn deploy
+```
