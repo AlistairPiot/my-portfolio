@@ -4,12 +4,12 @@
             "id": "1",
             "title": "Movie List",
             "description": "Movie List is a project that displays a list of films, with the option of filtering films by year. Once logged in, users can delete a film or add a new one.",
-            "images": ["./public/images/movie-liste.png"],
+            "images": ["/images/movie-liste.png"],
             "icons": [
-                "./public/icons/html-48px.svg",
-                "./public/icons/javascript-48px.svg",
-                "./public/icons/sass-48px.svg",
-                "./public/icons/json.svg"
+                "icons/html-48px.svg",
+                "icons/javascript-48px.svg",
+                "icons/sass-48px.svg",
+                "/icons/json.svg"
             ],
             "link": ["https://github.com/AlistairPiot/movie-list"]
         },
@@ -17,11 +17,11 @@
             "id": "2",
             "title": "Kasa",
             "description": "Kasa is a project that displays a list of several flats. Clicking on a flat displays all its features.",
-            "images": ["./public/images/kasa.png"],
+            "images": ["/images/kasa.png"],
             "icons": [
-                "./public//icons/react-48px.svg",
-                "./public/icons/javascript-48px.svg",
-                "./public/icons/sass-48px.svg"
+                "/icons/react-48px.svg",
+                "/icons/javascript-48px.svg",
+                "/icons/sass-48px.svg"
             ],
             "link": ["https://github.com/AlistairPiot/kasa-app"]
         },
@@ -29,12 +29,12 @@
             "id": "3",
             "title": "Argent Bank",
             "description": "Argent Bank is a project that allows you to interact with an API, authenticate yourself and change your nickname instantly.",
-            "images": ["./public/images/argent-bank.png"],
+            "images": ["/images/argent-bank.png"],
             "icons": [
-                "./public/icons/mongodb.svg",
-                "./public/icons/react-48px.svg",
-                "./public/icons/javascript-48px.svg",
-                "./public/icons/sass-48px.svg"
+                "/icons/mongodb.svg",
+                "/icons/react-48px.svg",
+                "/icons/javascript-48px.svg",
+                "/icons/sass-48px.svg"
             ],
             "link": ["https://github.com/AlistairPiot/argenk-bank"]
         }

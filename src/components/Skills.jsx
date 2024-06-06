@@ -1,9 +1,9 @@
-import figmaIcon from "/public/icons//figma-48px.svg";
-import cssIcon from "/public/icons/css-48.svg";
-import htmlIcon from "/public/icons/html-48px.svg";
-import javascriptIcon from "/public/icons/javascript-48px.svg";
-import reactIcon from "/public/icons/react-48px.svg";
-import sassIcon from "/public/icons/sass-48px.svg";
+import cssIcon from "/icons/css-48.svg";
+import figmaIcon from "/icons/figma-48px.svg";
+import htmlIcon from "/icons/html-48px.svg";
+import javascriptIcon from "/icons/javascript-48px.svg";
+import reactIcon from "/icons/react-48px.svg";
+import sassIcon from "/icons/sass-48px.svg";
 
 function Skills() {
     return (
