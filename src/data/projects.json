@@ -4,12 +4,12 @@
             "id": "1",
             "title": "Movie List",
             "description": "Movie List is a project that displays a list of films, with the option of filtering films by year. Once logged in, users can delete a film or add a new one.",
-            "images": ["../../src/assets/images/movie-liste.png"],
+            "images": ["./src/assets/images/movie-liste.png"],
             "icons": [
-                "../../src/assets/icons/html-48px.svg",
-                "../../src/assets/icons/javascript-48px.svg",
-                "../../src/assets/icons/sass-48px.svg",
-                "../../src/assets/icons/json.svg"
+                "./src/assets/icons/html-48px.svg",
+                "./src/assets/icons/javascript-48px.svg",
+                "./src/assets/icons/sass-48px.svg",
+                "./src/assets/icons/json.svg"
             ],
             "link": ["https://github.com/AlistairPiot/movie-list"]
         },
@@ -17,11 +17,11 @@
             "id": "2",
             "title": "Kasa",
             "description": "Kasa is a project that displays a list of several flats. Clicking on a flat displays all its features.",
-            "images": ["../../src/assets/images/kasa.png"],
+            "images": ["./src/assets/images/kasa.png"],
             "icons": [
-                "../../src/assets/icons/react-48px.svg",
-                "../../src/assets/icons/javascript-48px.svg",
-                "../../src/assets/icons/sass-48px.svg"
+                "./src/assets/icons/react-48px.svg",
+                "./src/assets/icons/javascript-48px.svg",
+                "./src/assets/icons/sass-48px.svg"
             ],
             "link": ["https://github.com/AlistairPiot/kasa-app"]
         },
@@ -29,12 +29,12 @@
             "id": "3",
             "title": "Argent Bank",
             "description": "Argent Bank is a project that allows you to interact with an API, authenticate yourself and change your nickname instantly.",
-            "images": ["../../src/assets/images/argent-bank.png"],
+            "images": ["./src/assets/images/argent-bank.png"],
             "icons": [
-                "../../src/assets/icons/mongodb.svg",
-                "../../src/assets/icons/react-48px.svg",
-                "../../src/assets/icons/javascript-48px.svg",
-                "../../src/assets/icons/sass-48px.svg"
+                "./src/assets/icons/mongodb.svg",
+                "./src/assets/icons/react-48px.svg",
+                "./src/assets/icons/javascript-48px.svg",
+                "./src/assets/icons/sass-48px.svg"
             ],
             "link": ["https://github.com/AlistairPiot/argenk-bank"]
         }
