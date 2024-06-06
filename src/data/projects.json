@@ -16,7 +16,7 @@
         {
             "id": "2",
             "title": "Kasa",
-            "description": "Kasa is a project that displays a list of several flats. Clicking on a flat displays all its features",
+            "description": "Kasa is a project that displays a list of several flats. Clicking on a flat displays all its features.",
             "images": ["../../src/assets/images/kasa.png"],
             "icons": [
                 "../../src/assets/icons/react-48px.svg",

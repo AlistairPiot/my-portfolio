@@ -38,7 +38,7 @@ const Project = () => {
     const currentProject = projectsData.projects[currentProjectIndex];
 
     return (
-        <div className="carousel relative">
+        <div className="carousel b relative">
             <a
                 href={currentProject.link[0]}
                 target="_blank"
@@ -46,7 +46,7 @@ const Project = () => {
                 className="block"
             >
                 <div
-                    className={`carousel-card group relative w-full transition-opacity duration-300 ${
+                    className={`carousel-card b md:m-flex group relative w-full transition-opacity duration-300 ${
                         isTransitioning ? "opacity-0" : "opacity-100"
                     }`}
                 >

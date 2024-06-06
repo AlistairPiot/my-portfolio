@@ -5,7 +5,7 @@ function Navbar() {
     const HamburgerLine = `h-0.5 w-5 my-0.5 rounded-full bg-black transition ease transform duration-200`;
 
     return (
-        <nav className="sticky top-0 z-50 flex items-center justify-between border-b-2 border-sky-950 bg-sky-200 p-4 font-bold text-sky-950">
+        <nav className="sticky top-0 z-50 flex items-center justify-between border-b-2 border-sky-950 bg-sky-200 p-4 font-bold text-sky-950 lg:px-40">
             <h1 className="text-2xl">Alistair</h1>
             <button
                 className="group flex flex-col items-center justify-center rounded border-none"
@@ -32,7 +32,7 @@ function Navbar() {
                 />
             </button>
             <div
-                className={`absolute right-0 top-full mt-1 flex w-48 flex-col items-center overflow-hidden rounded-bl-xl border border-gray-200 bg-stone-950/90 shadow-lg transition-all duration-300 ease-in-out ${
+                className={`absolute right-0 top-full mt-1 flex w-48 flex-col items-center overflow-hidden rounded-bl-xl border border-gray-200 bg-stone-950/90 shadow-lg transition-all duration-300 ease-in-out md:w-56 lg:w-64 ${
                     isOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
                 }`}
             >

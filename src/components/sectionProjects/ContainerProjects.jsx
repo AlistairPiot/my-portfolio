@@ -9,7 +9,7 @@ const ContainerProjects = () => {
                 </h2>
                 <Project />
             </div>
-            <div className="w-11/12 border-b-2 border-sky-50"></div>
+            <div className="w-11/12 border-b-2 border-sky-50 md:w-10/12 lg:w-8/12"></div>
         </div>
     );
 };

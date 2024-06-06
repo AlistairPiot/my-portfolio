@@ -5,7 +5,7 @@ import svgMe from "../../assets/images/alistair.svg";
 function Main() {
     return (
         <div className="mt-14 flex size-full justify-center">
-            <div className="flex h-80 w-11/12 flex-col items-center justify-center rounded-2xl bg-sky-900 text-sky-50">
+            <div className="flex h-80 w-10/12 flex-col items-center justify-center rounded-2xl bg-sky-900 text-sky-50 md:w-10/12 lg:w-6/12">
                 <img className="mb-2 w-24" src={svgMe} />
                 <h1 className="mb-0.5 text-4xl">Alistair Piot</h1>
                 <h3 className="text-2xl">Frontend Dev</h3>

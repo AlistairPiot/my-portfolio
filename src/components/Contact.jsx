@@ -5,11 +5,11 @@ import linkedinIcon from "../assets/icons/linkedin-48px.svg";
 
 function Contact() {
     return (
-        <div className="bg-sky-50 p-8 text-sky-950">
+        <div className="bg-sky-50 p-8 text-sky-950 md:p-0 md:py-8">
             <h2 className="mb-6 text-center text-3xl font-bold text-sky-950">
                 Contact
             </h2>
-            <div className="cards flex flex-col gap-6 text-sky-50">
+            <div className="cards flex flex-col gap-6 text-sky-50 md:m-auto md:w-10/12 lg:w-6/12">
                 <div className="card-1 item-center flex flex-col items-center gap-2 rounded-2xl bg-sky-900 p-8">
                     <div className="containerIcon">
                         <img className="w-12" src={emailIcon}></img>
