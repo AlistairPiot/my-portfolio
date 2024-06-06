@@ -11,7 +11,7 @@ function Skills() {
             <h2 className="mb-6 pt-8 text-center text-3xl font-bold text-sky-50">
                 Skills
             </h2>
-            <div className="flex size-full justify-center">
+            <div className="flex size-full justify-center lg:pb-14">
                 <div className="m-8 grid w-11/12 grid-cols-2 gap-8 rounded-2xl bg-sky-50 p-8 text-sky-950 md:w-10/12 lg:w-6/12">
                     <div className="flex flex-col items-center justify-center">
                         <img
@@ -21,7 +21,6 @@ function Skills() {
                         ></img>
                         <p>HTML</p>
                     </div>
-
                     <div className="flex flex-col items-center justify-center">
                         <img className="size-12" src={cssIcon} alt="CSS"></img>
                         <p>CSS</p>

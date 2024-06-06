@@ -2,7 +2,7 @@
 import { FaArrowDown } from "react-icons/fa6";
 function About() {
     return (
-        <div className="mb-10 flex size-full flex-col items-center justify-center text-sky-900">
+        <div className="mb-10 flex size-full flex-col items-center justify-center text-sky-900 lg:mb-14">
             <p className="mt-14 flex w-10/12 items-center justify-center text-center text-2xl md:w-10/12">
                 I'm 21yo, passionate about front-end development and UX/UI
                 Design

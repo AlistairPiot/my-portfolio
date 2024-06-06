@@ -5,7 +5,7 @@ import linkedinIcon from "/icons/linkedin-48px.svg";
 
 function Contact() {
     return (
-        <div className="bg-sky-50 p-8 text-sky-950 md:p-0 md:py-8">
+        <div className="bg-sky-50 p-8 text-sky-950 md:p-0 md:py-8 lg:pb-14">
             <h2 className="mb-6 text-center text-3xl font-bold text-sky-950">
                 Contact
             </h2>

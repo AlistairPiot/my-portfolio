@@ -38,7 +38,7 @@ const Project = () => {
     const currentProject = projectsData.projects[currentProjectIndex];
 
     return (
-        <div className="carousel b relative">
+        <div className="carousel relative">
             <a
                 href={currentProject.link[0]}
                 target="_blank"
@@ -46,18 +46,18 @@ const Project = () => {
                 className="block"
             >
                 <div
-                    className={`carousel-card b md:m-flex group relative w-full transition-opacity duration-300 ${
+                    className={`carousel-card group relative w-full transition-opacity duration-300 ${
                         isTransitioning ? "opacity-0" : "opacity-100"
                     }`}
                 >
                     <img
                         src={currentProject.images[0]}
                         alt={currentProject.title}
-                        className="h-44 w-96 rounded-2xl object-cover"
+                        className="m-auto h-44 rounded-2xl object-cover md:h-60 lg:h-80"
                     />
                     <div className="absolute inset-0 rounded-2xl bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-70"></div>
-                    <div className="absolute inset-0 flex items-center justify-center text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        <p className="text-sky-50">
+                    <div className="absolute inset-0 mx-6 flex items-center justify-center text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p className="text-sky-50 lg:text-xl">
                             {currentProject.description}
                         </p>
                     </div>
@@ -73,14 +73,16 @@ const Project = () => {
                     </div>
                 </div>
             </a>
-            <div className="mt-2 flex justify-around">
+            <div className="mt-2 flex justify-around md:text-2xl lg:mt-6">
                 <button
                     className="absolute left-8 rounded-full bg-transparent px-4 py-2 font-bold text-sky-50 hover:bg-gray-800"
                     onClick={goToPreviousProject}
                 >
                     <FaArrowLeft />
                 </button>
-                <h3 className="mb-2 text-xl">{currentProject.title}</h3>
+                <h3 className="mb-2 text-xl md:text-2xl">
+                    {currentProject.title}
+                </h3>
                 <button
                     className="absolute right-8 rounded-full bg-transparent px-4 py-2 font-bold text-sky-50 hover:bg-sky-950"
                     onClick={goToNextProject}
