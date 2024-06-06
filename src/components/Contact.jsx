@@ -12,7 +12,11 @@ function Contact() {
             <div className="cards flex flex-col gap-6 text-sky-50 md:m-auto md:w-10/12 lg:w-6/12">
                 <div className="card-1 item-center flex flex-col items-center gap-2 rounded-2xl bg-sky-900 p-8">
                     <div className="containerIcon">
-                        <img className="w-12" src={emailIcon}></img>
+                        <img
+                            className="w-12"
+                            src={emailIcon}
+                            alt="email icon"
+                        ></img>
                         <p className="text-center">Email</p>
                     </div>
                     <div className="flex items-center gap-4 text-xl">
@@ -28,7 +32,11 @@ function Contact() {
                 </div>
                 <div className="card-1 item-center flex flex-col items-center gap-2 rounded-2xl bg-sky-900 p-8">
                     <div className="containerIcon flex flex-col items-center">
-                        <img className="w-12" src={linkedinIcon}></img>
+                        <img
+                            className="w-12"
+                            src={linkedinIcon}
+                            alt="linkedin icon"
+                        ></img>
                         <p className="text-center">Linkedin</p>
                     </div>
                     <div className="flex items-center gap-4 text-xl">
