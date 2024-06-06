@@ -1,7 +1,7 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import { TbTargetArrow } from "react-icons/tb";
-import emailIcon from "../assets/icons/email.svg";
-import linkedinIcon from "../assets/icons/linkedin-48px.svg";
+import emailIcon from "/public/icons/email.svg";
+import linkedinIcon from "/public/icons/linkedin-48px.svg";
 
 function Contact() {
     return (
