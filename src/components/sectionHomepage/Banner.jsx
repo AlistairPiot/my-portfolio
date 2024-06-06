@@ -8,7 +8,7 @@ function Main() {
             <div className="flex h-80 w-10/12 flex-col items-center justify-center rounded-2xl bg-sky-900 text-sky-50 md:w-10/12 lg:w-6/12">
                 <img className="mb-2 w-24" src={svgMe} alt="profil picture" />
                 <h1 className="mb-0.5 text-4xl">Alistair Piot</h1>
-                <h3 className="text-2xl">Frontend Dev</h3>
+                <p className="text-2xl">Frontend Dev</p>
                 <div className="mt-4 flex gap-4">
                     <a
                         href="https://www.linkedin.com/in/alistair-piot/"

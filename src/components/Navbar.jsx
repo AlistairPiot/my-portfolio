@@ -9,6 +9,7 @@ function Navbar() {
             <h1 className="text-2xl">Alistair</h1>
             <button
                 className="group flex flex-col items-center justify-center rounded border-none"
+                name="hamburger button"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <div

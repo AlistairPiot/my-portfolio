@@ -23,6 +23,7 @@ function Contact() {
                         <p>By mail here</p>
                         <a
                             href="mailto:alistair.piot@gmail.com"
+                            aria-label="Link to send me an e-mail"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -43,7 +44,9 @@ function Contact() {
                         <p>Via Linkedin here</p>
                         <a
                             href="https://www.linkedin.com/in/alistair-piot/"
+                            aria-label="Link to my LinkedIn account"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <TbTargetArrow className="cursor-pointer text-2xl" />
                         </a>
