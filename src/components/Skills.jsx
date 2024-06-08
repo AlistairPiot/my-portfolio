@@ -15,47 +15,53 @@ function Skills() {
                 <div className="m-8 grid w-11/12 grid-cols-2 gap-8 rounded-2xl bg-sky-50 p-8 text-sky-950 md:w-10/12 lg:w-6/12">
                     <div className="flex flex-col items-center justify-center">
                         <img
-                            className="size-12"
+                            className="size-12 md:size-14 lg:size-16"
                             src={htmlIcon}
                             alt="HTML"
                         ></img>
-                        <p>HTML</p>
-                    </div>
-                    <div className="flex flex-col items-center justify-center">
-                        <img className="size-12" src={cssIcon} alt="CSS"></img>
-                        <p>CSS</p>
+                        <p className="text-lg md:text-xl lg:text-2xl">HTML</p>
                     </div>
                     <div className="flex flex-col items-center justify-center">
                         <img
-                            className="size-12"
+                            className="size-12 md:size-14 lg:size-16"
+                            src={cssIcon}
+                            alt="CSS"
+                        ></img>
+                        <p className="text-lg md:text-xl lg:text-2xl">CSS</p>
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                        <img
+                            className="size-12 md:size-14 lg:size-16"
                             src={javascriptIcon}
                             alt="JavaScript"
                         ></img>
-                        <p>JavaScript</p>
+                        <p className="text-lg md:text-xl lg:text-2xl">
+                            JavaScript
+                        </p>
                     </div>
                     <div className="flex flex-col items-center justify-center">
                         <img
-                            className="size-12"
+                            className="size-12 md:size-14 lg:size-16"
                             src={reactIcon}
                             alt="React"
                         ></img>
-                        <p>React</p>
+                        <p className="text-lg md:text-xl lg:text-2xl">React</p>
                     </div>
                     <div className="flex flex-col items-center justify-center">
                         <img
-                            className="size-12"
+                            className="size-12 md:size-14 lg:size-16"
                             src={sassIcon}
                             alt="Sass"
                         ></img>
-                        <p>Sass</p>
+                        <p className="text-lg md:text-xl lg:text-2xl">Sass</p>
                     </div>
                     <div className="flex flex-col items-center justify-center">
                         <img
-                            className="size-12"
+                            className="size-12 md:size-14 lg:size-16"
                             src={figmaIcon}
                             alt="Figma"
                         ></img>
-                        <p>Figma</p>
+                        <p className="text-lg md:text-xl lg:text-2xl">Figma</p>
                     </div>
                 </div>
             </div>

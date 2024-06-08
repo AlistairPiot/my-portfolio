@@ -17,9 +17,9 @@ function Contact() {
                             src={emailIcon}
                             alt="email icon"
                         ></img>
-                        <p className="text-center">Email</p>
+                        <p className="text-center md:text-xl">Email</p>
                     </div>
-                    <div className="flex items-center gap-4 text-xl">
+                    <div className="flex items-center gap-4 text-xl md:text-2xl">
                         <p>By mail here</p>
                         <a
                             href="mailto:alistair.piot@gmail.com"
@@ -38,9 +38,9 @@ function Contact() {
                             src={linkedinIcon}
                             alt="linkedin icon"
                         ></img>
-                        <p className="text-center">Linkedin</p>
+                        <p className="text-center md:text-xl">Linkedin</p>
                     </div>
-                    <div className="flex items-center gap-4 text-xl">
+                    <div className="flex items-center gap-4 text-xl md:text-2xl">
                         <p>Via Linkedin here</p>
                         <a
                             href="https://www.linkedin.com/in/alistair-piot/"

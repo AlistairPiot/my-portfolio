@@ -57,7 +57,7 @@ const Project = () => {
                     />
                     <div className="absolute inset-0 rounded-2xl bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-70"></div>
                     <div className="absolute inset-0 mx-6 flex items-center justify-center text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        <p className="text-sky-50 lg:text-xl">
+                        <p className="text-sky-50 lg:text-2xl">
                             {currentProject.description}
                         </p>
                     </div>
@@ -67,7 +67,7 @@ const Project = () => {
                                 key={index}
                                 src={icon}
                                 alt={`icon-${index}`}
-                                className="size-6"
+                                className="size-6 md:size-8 lg:size-10"
                             />
                         ))}
                     </div>
