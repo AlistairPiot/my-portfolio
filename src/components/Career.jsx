@@ -16,7 +16,7 @@ function Career() {
                 </h2>
                 <div
                     className="w-full lg:flex lg:justify-center"
-                    style={{ width: "90vw" }}
+                    style={{ width: "83vw" }}
                 >
                     <div className="w-full lg:w-11/12">
                         <VerticalTimeline>
