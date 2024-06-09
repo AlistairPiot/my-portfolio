@@ -1,9 +1,9 @@
-import cssIcon from "/icons/css-48.svg";
 import figmaIcon from "/icons/figma-48px.svg";
 import htmlIcon from "/icons/html-48px.svg";
 import javascriptIcon from "/icons/javascript-48px.svg";
 import reactIcon from "/icons/react-48px.svg";
 import sassIcon from "/icons/sass-48px.svg";
+import tailwindIcon from "/icons/tailwind-48px.svg";
 
 function Skills() {
     return (
@@ -24,10 +24,12 @@ function Skills() {
                     <div className="flex flex-col items-center justify-center">
                         <img
                             className="size-12 md:size-14 lg:size-16"
-                            src={cssIcon}
+                            src={tailwindIcon}
                             alt="CSS"
                         ></img>
-                        <p className="text-lg md:text-xl lg:text-2xl">CSS</p>
+                        <p className="text-lg md:text-xl lg:text-2xl">
+                            TailwindCSS
+                        </p>
                     </div>
                     <div className="flex flex-col items-center justify-center">
                         <img
