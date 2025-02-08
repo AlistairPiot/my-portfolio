@@ -94,33 +94,14 @@ yarn add react-icons
 yarn add react-vertical-timeline-component @heroicons/react
 ```
 
-## GitHub Pages installation
+## Vercel installation
 
 ```bash
-yarn add gh-pages --dev
+yarn add vercel
 ```
 
-### Add homepage to the package.json file :
+### Login to Vercel account
 
 ```bash
-"homepage": "https://alistairpiot.dev"
-```
-
-#### add predeploy and deploy script in package.json:
-
-```bash
-"predeploy": "yarn run build",
-"deploy": "gh-pages -d dist",
-```
-
--   Now run the command :
-
-```bash
-yarn predeploy
-```
-
--   And the command :
-
-```bash
-yarn deploy
+vercel login
 ```
