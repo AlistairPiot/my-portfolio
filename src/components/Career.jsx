@@ -29,13 +29,34 @@ function Career() {
                                 contentArrowStyle={{
                                     borderRight: "7px solid  #0284c7",
                                 }}
-                                date="2023-2024"
+                                date="2024-2025"
                                 dateClassName="lg:mx-2"
                                 iconStyle={{
                                     background: "#0284c7",
                                     color: "#f0f9ff",
                                 }}
                                 icon={<ClockIcon />}
+                            >
+                                <h3 className="vertical-timeline-element-title">
+                                    MyDigitalSchool : Web developer
+                                </h3>
+                            </VerticalTimelineElement>
+                            <VerticalTimelineElement
+                                className="vertical-timeline-element--work"
+                                contentStyle={{
+                                    background: "#0284c7",
+                                    color: "#f0f9ff",
+                                }}
+                                contentArrowStyle={{
+                                    borderRight: "7px solid  #0284c7",
+                                }}
+                                date="2023-2024"
+                                dateClassName="lg:mx-2"
+                                iconStyle={{
+                                    background: "#0284c7",
+                                    color: "#f0f9ff",
+                                }}
+                                icon={<CheckIcon />}
                             >
                                 <h3 className="vertical-timeline-element-title">
                                     OpenClassrooms training: Web integrator
